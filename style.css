@@ -1,0 +1,66 @@
+body {
+  background-color: #f8fafc;
+  font-family: sans-serif;
+}
+.header {
+  background: #337ef7;
+  color: white;
+  line-height: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.button-normal {
+	display: block;
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.dog-card {
+	box-sizing: border-box;
+	border: 2px solid #aaa;
+	border-radius: 8px;
+	height: auto;
+	width: 30%;
+	margin: 50px 10%;
+	text-align: center;
+}
+
+.dog-img {
+	height: auto;
+	width: 40%;
+	border-radius: 50%;
+	margin: 20px 0;
+}
+
+.button-normal {
+	background-color: white;
+	border-radius: 8px;
+	margin: 10px auto;
+}
+
+.button-wrapper {
+	box-sizing: border-box;
+	border: 2px solid #aaa;
+	border-radius: 8px;
+	height: auto;
+	width: 20%;
+	margin: 50px 15%;
+	text-align: center
+	display: flex;
+	justify-content: center;
+}
+
+@media(min-width: 500px) {
+	.button-wrapper {
+		width: 15%;
+		margin: 50px 17.5%;
+	}
+}
